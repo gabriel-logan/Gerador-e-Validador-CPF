@@ -1,0 +1,77 @@
+body {
+    #div_maxima {
+        margin: auto;
+        border: 1px solid rgba(219, 219, 255, 0.452);
+        border-radius: 15px;
+        padding: 5px;
+        width: 400px;
+        #div_gerador {
+            .div_titulo {
+                text-align: center;
+            }
+            .div_inputs {
+                text-align: center;
+                .botoes {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin-bottom: 5px;
+                    input {
+                        width: 200px;
+                        height: 25px;
+                        font-size: 1.2em;
+                        text-align: center;
+                        border: 1px solid rgb(139, 139, 211);
+                        border-radius: 10px;
+                        resize: none;
+                        outline: none;
+                    }
+                    button {
+                        height: 25px;
+                        margin-left: 2px;
+                    }
+                }
+                .botoes_auxiliares {
+                    margin: auto;
+                    width: 90%;
+                    display: flex;
+                    justify-content: space-around;
+                }
+            }
+        }
+        #div_validador {
+            text-align: center;
+            .botoes {
+                display: flex;
+                align-items: center;
+                margin-bottom: 5px;
+                input {
+                    width: 200px;
+                    height: 25px;
+                    font-size: 1.2em;
+                    text-align: center;
+                    border: 1px solid rgb(139, 139, 211);
+                    border-radius: 10px;
+                    resize: none;
+                    outline: none;
+                    margin-inline: 5px;
+                }
+                button {
+                    height: 25px;
+                }
+            }
+        }
+    }
+}
+
+button {
+    cursor: pointer;
+}
+
+.vermelho {
+    color: red;
+}
+
+.verde {
+    color: green;
+}

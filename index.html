@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador e validador CPF</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="div_maxima">
+        <div id="div_gerador">
+            <div class="div_titulo">
+                <h1>Gerador de CPF</h1>
+            </div>
+            <div class="div_inputs">
+                <div>
+                    <label for="">CPF GERADO: </label>
+                </div>
+                <div class="botoes">
+                    <input id="campo_geraCPF" type="text">
+                    <button id="btn_geraCPF">Gerar</button>
+                </div>
+                <div class="botoes_auxiliares">
+                    <button id="btn_clean">Limpar</button>
+                    <button id="btn_copy">Copiar</button>
+                </div>
+            </div>
+            <script src="./geradorcpf.js"></script>
+        </div>
+        <h6 style="text-align: center;">=============================================================</h6>
+        <div id="div_validador">
+            <div class="div_titulo">
+                <h1>Validador de CPF</h1>
+            </div>
+            <div class="botoes">
+                <label for="">Cole Aqui o CPF: </label>
+                <input id="input_validador" type="text">
+                <button id="btn_validador">Validar</button>
+            </div>
+            <div>
+                <h3 id="resposta">Aguardando dados...</h3>
+            </div>
+        </div>
+        <script src="./validadorcpf.js"></script>
+    </div>
+</body>
+
+</html>

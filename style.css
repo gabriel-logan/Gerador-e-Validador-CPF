@@ -1,0 +1,97 @@
+body #div_maxima {
+  margin: auto;
+  border: 1px solid rgba(219, 219, 255, 0.452);
+  border-radius: 15px;
+  padding: 5px;
+  width: 400px;
+}
+
+body #div_maxima #div_gerador .div_titulo {
+  text-align: center;
+}
+
+body #div_maxima #div_gerador .div_inputs {
+  text-align: center;
+}
+
+body #div_maxima #div_gerador .div_inputs .botoes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 5px;
+}
+
+body #div_maxima #div_gerador .div_inputs .botoes input {
+  width: 200px;
+  height: 25px;
+  font-size: 1.2em;
+  text-align: center;
+  border: 1px solid #8b8bd3;
+  border-radius: 10px;
+  resize: none;
+  outline: none;
+}
+
+body #div_maxima #div_gerador .div_inputs .botoes button {
+  height: 25px;
+  margin-left: 2px;
+}
+
+body #div_maxima #div_gerador .div_inputs .botoes_auxiliares {
+  margin: auto;
+  width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+body #div_maxima #div_validador {
+  text-align: center;
+}
+
+body #div_maxima #div_validador .botoes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 5px;
+}
+
+body #div_maxima #div_validador .botoes input {
+  width: 200px;
+  height: 25px;
+  font-size: 1.2em;
+  text-align: center;
+  border: 1px solid #8b8bd3;
+  border-radius: 10px;
+  resize: none;
+  outline: none;
+  margin-inline: 5px;
+}
+
+body #div_maxima #div_validador .botoes button {
+  height: 25px;
+}
+
+button {
+  cursor: pointer;
+}
+
+.vermelho {
+  color: red;
+}
+
+.verde {
+  color: green;
+}
+/*# sourceMappingURL=style.css.map */
